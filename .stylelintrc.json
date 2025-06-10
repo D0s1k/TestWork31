@@ -1,0 +1,8 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
+  "plugins": ["stylelint-scss"],
+  "rules": {
+    "block-no-empty": true,
+    "color-no-invalid-hex": true
+  }
+}
