@@ -1,0 +1,46 @@
+.cardCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    width: 250px;
+    height: 360px;
+  
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+  
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+  
+    transition: transform 0.2s ease;
+  }
+  
+  .cardCont:hover {
+    transform: translateY(-4px);
+  }
+  
+  .cardCont h3 {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .cardCont p {
+    margin: 4px 0;
+  }
+  
+  .cardCont button {
+    margin-top: auto;
+    padding: 8px 12px;
+    background-color: #0070f3;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cardCont button:hover {
+    background-color: #0057c2;
+  }
+  
