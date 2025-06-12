@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/store/authStore';
+import cls from '@/app/login/style.module.scss'
 
 export default function LoginPage() {
   const router = useRouter();
@@ -35,7 +36,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div>
+    <div className={cls.loginCont}>
       <form onSubmit={handleSubmit}>
         <h2>Авторизация</h2>
 

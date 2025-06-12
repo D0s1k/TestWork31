@@ -32,7 +32,6 @@
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
   
-    /* Прячем скролл */
     scrollbar-width: none;
   }
   .productsCont::-webkit-scrollbar {
@@ -42,5 +41,7 @@
   .productsCont > * {
     flex: 0 0 auto;
     scroll-snap-align: start;
+    display: flex;
+    align-items: center;
   }
   
