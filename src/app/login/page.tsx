@@ -38,7 +38,7 @@ export default function LoginPage() {
   return (
     <div className={cls.loginCont}>
       <form onSubmit={handleSubmit}>
-        <h2>Авторизация</h2>
+        <h2>Login</h2>
 
         <input
           type="text"

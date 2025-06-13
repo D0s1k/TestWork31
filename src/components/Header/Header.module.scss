@@ -1,10 +1,101 @@
-.header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    text-align: center;
-    background-color: purple;
-    color: white;
-    height: 50px;
+.header {
+  font-family: sans-serif;
+
+  .topBar {
+    background: #181823;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 20px;
+    font-size: 0.85rem;
+
+    .contactInfo {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+
+      svg {
+        margin-right: 5px;
+        color: red;
+      }
+    }
+
+    .login {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      svg {
+        color: red;
+      }
+
+      button{
+        background: none;
+        color: #fff;
+        outline: none;
+        border: none;
+      }
+    }
+  }
+
+  .middleBar {
+    background: #12121a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 20px;
+    color: #fff;
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+
+      span {
+        color: red;
+      }
+    }
+
+    .banner {
+      background: #ccc;
+      width: 600px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #444;
+      font-weight: 500;
+    }
+  }
+
+  .navBar {
+    background: #fff;
+    border-top: 2px solid red;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 10px 20px;
+      display: flex;
+      gap: 20px;
+
+      li {
+        a {
+          text-decoration: none;
+          color: #181823;
+          font-weight: 500;
+          &:hover {
+            color: red;
+          }
+        }
+      }
+    }
+  }
 }

@@ -4,10 +4,45 @@
     justify-content: center;
 
     width: 100%;
-    height: 100%;
 
     form {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    input{
+        width: 320px;
+        height: 26px;
+        border-radius: 8px;
+        border: 1px solid #C2D2E1;
+        color: rgba(0, 0, 0, 0.85);
+        display: flex;
+        outline: none;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: start;
+        cursor: pointer;
+        align-items: stretch;
+        padding: 9px 15px;
+        gap: 10px;
+    }
+
+    button {
+        width: 100%;
+        background: none;
+        color: rgba(0, 0, 0, 0.85);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        padding: 6px 20px;
+        border-radius: 8px;
+        border: none;
+        outline: 1px solid #15171D;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
     }
 }
